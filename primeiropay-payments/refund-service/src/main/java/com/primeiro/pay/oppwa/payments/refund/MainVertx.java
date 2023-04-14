@@ -11,7 +11,7 @@ import lombok.SneakyThrows;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static io.vertx.pagseguro.utils.VertxRunner.runVerticle;
+import static inhouse.vertx.queen.dead.utils.VertxRunner.runVerticle;
 
 /**
  * @author dbatista

@@ -8,7 +8,6 @@
 
   <groupId>inhouse.vertx.queen.dead</groupId>
   <artifactId>mmp-vertxs</artifactId>
-
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Vertx Projects</name>
@@ -17,6 +16,16 @@
     <log4j.version>1.2.17</log4j.version>
     <resteasy.version>4.0.0.Final</resteasy.version>
   </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>inhouse.vertx.queen.dead.utils</groupId>
+        <artifactId>utils-lib</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 
   <dependencies>
@@ -46,7 +55,6 @@
     <module>hello-world</module>
     <module>quarkus-app</module>
     <module>cassandra-app</module>
-    <module>hello-world-web</module>
     <module>camel-bridge-app</module>
     <module>amqp-bridge-app</module>
     <module>basic-concepts</module>
