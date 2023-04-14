@@ -39,7 +39,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.8</version>
+      <version>1.18.26</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -55,10 +55,11 @@
     <module>hello-world</module>
     <module>quarkus-app</module>
     <module>cassandra-app</module>
-    <module>camel-bridge-app</module>
-    <module>amqp-bridge-app</module>
     <module>basic-concepts</module>
+    <module>amqp-bridge-app</module>
     <module>circuit-breaker</module>
+    <module>camel-bridge-app</module>
+    <module>hibernate-starter</module>
     <module>primeiropay-payments</module>
     <module>nubank-check-balance-app</module>
     <module>cvc-hotel-broker-quarkus-vertx</module>
