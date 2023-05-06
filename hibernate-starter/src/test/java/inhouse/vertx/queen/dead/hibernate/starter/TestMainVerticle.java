@@ -1,4 +1,4 @@
-package inhouse.vertx.queen.dead;
+package inhouse.vertx.queen.dead.hibernate.starter;
 
 import io.vertx.core.Vertx;
 import io.vertx.junit5.VertxExtension;

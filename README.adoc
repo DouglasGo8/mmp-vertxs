@@ -7,6 +7,8 @@
 - https://aws.amazon.com/blogs/opensource/using-graalvm-build-minimal-docker-images-java-applications/?sc_channel=sm&sc_campaign=Open_Source&sc_publisher=TWITTER&sc_country=Open+Source&sc_geo=GLOBAL&sc_outcome=adoption&trk=open_source_TWITTER&linkId=69306543[Using GraalVM to Build Minimal Docker Images for Java Applications]
 - https://github.com/singhmarut/vertx-cluster[Vert.x Cluster Concept]
 
+- https://javabydeveloper.com/what-is-dialect-in-hibernate-and-list-of-dialects/[Hibernate Dialects]
+
 .RabbitMQ in Docker
 [source, bash]
 ----
